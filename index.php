@@ -27,7 +27,7 @@
 
 	<div class="converterBox">
 	<h1 class="headings">Temperature Converter</h1>
-	<form method="get" action="/tempconvert.php" >
+	<form method="get" action="/temperatureconvert.php" >
 		<div><input type="text" name="temperature" placeholder="Temperature..."></div>
 
 		<div>
