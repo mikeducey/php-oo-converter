@@ -13,10 +13,10 @@ class Distance {
 
 	function __convertDistance() {
 		if($this->unit == "miles"){
-			return ($this->distance) * .60934;
+			return (($this->distance) * .60934);
 		}
-		elseif($this->unit_param == "kilometers"){
-			return ($this->distance) * 1.60934;
+		elseif($this->unit == "kilometers"){
+			return (($this->distance) * 1.60934);
 		}
 	}
 
